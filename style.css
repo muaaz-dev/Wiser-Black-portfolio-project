@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(16, 16, 16);
+    font-family: 'poppins', sans-serif;
+    color: rgb(107, 107, 222);
+    margin: 0;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav ul li{
+    list-style: none;
+    margin: 5px 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1.3rem;
+    transition: 0.3s;
+
+}
+
+.nav ul li a:hover{
+    color: rgb(107, 107, 222);
+}
+
+header{
+    margin: 0;
+    padding-top: 1rem;
+    height: 700px;
+    z-index: 2;
+    background-image: url('./assets/images/home-bg-2.png');
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 4rem;
+}
+
+.home-content h1{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.home-content h3{
+    margin: 0px;
+    color: azure;
+}
+
+.about-btn{
+    margin-top: 1rem;
+    padding: 10px;
+    width: 5rem;
+    color: azure;
+    background-color: rgb(107, 107, 222);
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-btn:hover{
+    background-color: azure;
+    color: rgb(107, 107, 222);
+}
+
+.box{
+    text-align: center;
+    padding: 1rem;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.box img{
+    object-fit: cover;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+.box h2{
+    color: azure;
+}
+
+.box p{
+    color: rgb(107, 107, 222);
+}
+
+#services-page{
+    /* background-image: url('./assets/images/service-2.jpg'); */
+    background-color: rgb(10, 10, 10);
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    /* padding-top: 1em; */
+}
+
+#services{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+#services-page > h1 {
+    text-align: center;
+    margin: 0.5em;
+}
