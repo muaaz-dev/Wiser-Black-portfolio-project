@@ -101,11 +101,11 @@ header{
 
 #services-page{
     /* background-image: url('./assets/images/service-2.jpg'); */
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(16, 16, 16);
     background-position: center;
     background-size: cover;
     background-clip: border-box;
-    /* padding-top: 1em; */
+    padding-top: 1rem;
 }
 
 #services{
@@ -118,4 +118,37 @@ header{
 #services-page > h1 {
     text-align: center;
     margin: 0.5em;
+}
+
+
+/* Portfolio / Recent Work */
+#portfolio{
+    background-image: url('./assets/images/portfolio-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    padding-top: 1rem;
+}
+
+#portfolio h1{
+    text-align: center;
+}
+
+.card{
+    text-align: center;
+    color: azure;
+}
+
+.card h2{
+    color: rgb(107, 107, 222);
+}
+
+.card video{
+    margin: 1rem 2rem;
+    border-radius: 5%;
+    background-color: azure;
+}
+
+#testimonials span{
+    color: rgb(107, 107, 222);
 }
