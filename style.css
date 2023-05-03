@@ -1,5 +1,9 @@
 html {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 body {
@@ -7,6 +11,18 @@ body {
     font-family: 'poppins', sans-serif;
     color: rgb(107, 107, 222);
     margin: 0;
+    
+    padding: 0;
+}
+
+.home{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
 }
 
 .nav ul {
@@ -48,6 +64,7 @@ header {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    width: 100%;
     margin-left: 4rem;
 }
 
@@ -84,12 +101,14 @@ header {
     padding: 1rem;
     margin: 10px;
     margin-top: 0px;
+    width: 250px;
 }
 
 .box img {
     object-fit: cover;
-    max-height: 200px;
+    height: 200px;
     border-radius: 5px;
+    width: 100%;
 }
 
 .box h2 {
@@ -98,6 +117,7 @@ header {
 
 .box p {
     color: rgb(107, 107, 222);
+    word-wrap: break-word;
 }
 
 #services-page {
@@ -111,6 +131,7 @@ header {
 
 #services {
     display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -323,4 +344,25 @@ footer small a{
 
 footer small a:hover{
     color: black;
+}
+
+@media (max-width:500px){
+    .nav{
+        display: none;
+    }
+
+    .home-content{
+        justify-content: start;
+        margin-left: 1rem;
+    }
+
+    .box{
+        width: auto;
+        margin: auto;
+    }
+
+    .box img{
+        max-width: 100%;
+        height: auto;
+    }
 }
